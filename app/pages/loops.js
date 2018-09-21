@@ -17,25 +17,25 @@ isAdmin === true ? alert('Привет, Admin!') : alert('Ты точно не A
 const log = prompt ('Введите логин', '');
 
 if (log === 'Admin') {
-	const pas = prompt ('Введите пароль', '');
+	const pas = prompt('Введите пароль', '');
 	if (pas === 'qwerty') {
-		alert ('Добро пожаловать, Admin');
+		alert('Добро пожаловать, Admin');
 	} else if (pas === null || pas === '') {
-		alert ('Отказано в доступе');
+		alert('Отказано в доступе');
 	} else {
-		alert ('Введенный пароль неправильный');
+		alert('Введенный пароль неправильный');
 	}
 } else if (log === 'User') {
-	const pas = +prompt ('Введите пароль', '');
+	const pas = +prompt('Введите пароль', '');
 	if (pas === 12345) {
-		alert ('Добро пожаловать, User');
+		alert('Добро пожаловать, User');
 	} else if (pas === 0) {
-		alert ('Отказано в доступе');
+		alert('Отказано в доступе');
 	} else {
-		alert ('Введенный пароль неправильный');
+		alert('Введенный пароль неправильный');
 	}
 } else {
-	alert ('Такого логина нет в системе');
+	alert('Такого логина нет в системе');
 }
 
 // (4)
