@@ -1,5 +1,4 @@
-// Перепиши цикл for на while:
-
+// (1)
 let k = 10;
 
 while (k >= 0) {
@@ -9,36 +8,12 @@ while (k >= 0) {
 	--k;
 }
 
-// Перепиши if...else на тернарный оператор ?:
-
+// (2)
 const isAdmin = true;
 
 isAdmin === true ? alert('Привет, Admin!') : alert('Ты точно не Admin');
 
-// Перепиши if...else на switch:
-
-const age = +prompt('Сколько тебе лет?', '12');
-
-switch (age) {
-	case 12 :
-	alert('Слишком мало :(');
-	break;
-
-	case 16 :
-	alert('Почти достаточно :[');
-	break;
-
-	case 18 :
-	alert('Вот сейчас в самый раз! :)');
-	break;
-	
-	default :
-	alert('Возраст не определен %)');
-}
-
-// Напиши примитивную проверку логина и пароля, которая 
-// используется в роутерах, опираясь на схему:
-
+// (3)
 const log = prompt ('Введите логин', '');
 
 if (log === 'Admin') {
@@ -61,4 +36,21 @@ if (log === 'Admin') {
 	}
 } else {
 	alert ('Такого логина нет в системе');
+}
+
+// (4)
+const age = +prompt('Сколько тебе лет?', '12');
+
+switch (age) {
+	case 12:
+		alert('Слишком мало :(');
+		break;
+	case 16:
+		alert('Почти достаточно :[');
+		break;
+	case 18:
+		alert('Вот сейчас в самый раз! :)');
+		break;
+	default:
+		alert('Возраст не определен %)');
 }
