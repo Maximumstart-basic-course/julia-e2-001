@@ -1,11 +1,11 @@
 // (1)
 let k = 10;
 
-while (k >= 0) {
+while (k > 0) {
 	if (k % 2 === 0) {
 		console.log(k);
 	}
-	--k;
+	k-=1;
 }
 
 // (2)
