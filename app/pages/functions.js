@@ -32,7 +32,7 @@ function discr(a, b, c) {
     console.error('Не достаточно данных');
   } else if (isNaN(a)) {
     console.error(`Значение ${a} не является числом`);
-  }	else if (isNaN(b)) {
+  } else if (isNaN(b)) {
     console.error(`Значение ${b} не является числом`);
   } else if (isNaN(c)) {
     console.error(`Значение ${c} не является числом`);
