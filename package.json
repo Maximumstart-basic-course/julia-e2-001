@@ -16,7 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "eslint": "4.19.1",
-    "stylelint": "9.3.0"
+    "stylelint": "9.3.0",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "11.1.0",
